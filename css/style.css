@@ -43,6 +43,7 @@
     position: relative;
     float: right;
     background: #fff;
+
 }
 
 .timeline-block:before{
@@ -177,6 +178,7 @@
 .timeline-title{
     margin-top: 0;
     color: inherit;
+    word-break: break-all;
 }
 
 #timeline .timeline-text img{

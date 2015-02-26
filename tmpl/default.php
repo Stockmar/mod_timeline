@@ -131,7 +131,7 @@ defined('_JEXEC') or die;
                 <div class="timeline-icon"><i class="<?php echo $TimeLineItemsParms['icon5']; ?>"></i></div>
               	<div class="timeline-block <?php echo $TimeLineItemsParms['position5']; ?>">
                 	<div class="timeline-heading">
-                  		<h5 class="timeline-title"><?php echo $TimeLineItemsParms['timeline_title5']; ?></h5>
+                  		<h4 class="timeline-title"><?php echo $TimeLineItemsParms['timeline_title5']; ?></h4>
                 	</div>
                 	<div class="timeline-text">
                 		<?php echo $TimeLineItemsParms['timeline_text5']; ?>
@@ -159,7 +159,7 @@ defined('_JEXEC') or die;
                 <div class="timeline-icon"><i class="<?php echo $TimeLineItemsParms['icon6']; ?>"></i></div>
               	<div class="timeline-block <?php echo $TimeLineItemsParms['position6']; ?>">
                 	<div class="timeline-heading">
-                  		<h6 class="timeline-title"><?php echo $TimeLineItemsParms['timeline_title6']; ?></h6>
+                  		<h4 class="timeline-title"><?php echo $TimeLineItemsParms['timeline_title6']; ?></h4>
                 	</div>
                 	<div class="timeline-text">
                 		<?php echo $TimeLineItemsParms['timeline_text6']; ?>
