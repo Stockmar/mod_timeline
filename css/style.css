@@ -78,11 +78,11 @@
 
 @media only screen and (min-width: 1170px) {
     #timeline > .timeline-wrapper > .timeline-block.left {
-        width: 45%;
+        width: 42%;
         float: left;
     }
     #timeline > .timeline-wrapper > .timeline-block {
-        width: 45%;
+        width: 42%;
         float: right;
     }
 

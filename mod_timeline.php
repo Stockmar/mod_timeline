@@ -21,12 +21,10 @@ JHtml::_('jquery.framework');
 $doc =& JFactory::getDocument();
 
 // add the stylesheet
-$doc->addStylesheet( JURI::root(true) . '/modules/mod_st_timeline/css/style.css' );
+$doc->addStylesheet( JURI::root(true) . '/modules/mod_timeline/css/style.css' );
 
 // add the jquery
-$doc->addStylesheet( JURI::root(true) . '/modules/mod_st_timeline/js/timeline.js');
-// JHTML::_('behavior.calendar');
-
+$doc->addStylesheet( JURI::root(true) . '/modules/mod_timeline/js/timeline.js');
 
 // parms setup
 $dateFormat     			=       $params->get('date_format', '');
@@ -74,6 +72,6 @@ $doc->addStyleDeclaration($style);
 
 
 $TimeLineItemsParms = ModTimelineHelper::getData( $params );
-require JModuleHelper::getLayoutPath('mod_st_timeline', $params->get('layout', 'default'));
+require JModuleHelper::getLayoutPath('mod_timeline', $params->get('layout', 'default'));
 
 ?>
