@@ -7,7 +7,7 @@
 * URL				: http://stockmar.dk
 * @copyright		: 2015 stockmar.dk
 * License 			: GPLv2 http://www.gnu.org/licenses/gpl-2.0.html
-* 
+* <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 */
 
 defined('_JEXEC') or die;
@@ -19,18 +19,19 @@ defined('_JEXEC') or die;
 JHtml::_('jquery.framework');
 
 $doc =& JFactory::getDocument();
-
-// add the stylesheet
-$doc->addStylesheet( JURI::root(true) . '/modules/mod_timeline/css/style.css' );
-
-// add the jquery
-$doc->addStylesheet( JURI::root(true) . '/modules/mod_timeline/js/timeline.js');
-
 // parms setup
 $dateFormat     			=       $params->get('date_format', '');
 $iconbackground             = 		$params->get('iconbackground');
 $iconcolor              	= 		$params->get('iconcolor');
 $verticaline              	= 		$params->get('verticaline');
+$fontawesome 				= 		$params->get( 'font-awesome' );
+
+// add the stylesheet
+$doc->addStylesheet( JURI::root(true) . '/modules/mod_timeline/css/style.css' );
+if ($fontawesome==1)$doc->addStylesheet( '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' );
+
+// add the jquery
+$doc->addScript( JURI::root(true) . '/modules/mod_timeline/js/timeline.js');
 
 // TIMELINE DATES 
 $dateStart1    	=       $params->get('date_start1', '');

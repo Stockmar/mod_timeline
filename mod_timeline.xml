@@ -235,6 +235,10 @@
 			</fieldset>
 
 			<fieldset name="Options">
+					<field name="font-awesome" type="radio" class="btn-group btn-group-yesno" default="0" label="FONTAWSOME_LABLE" description="">
+						<option value="1">JYES</option>
+						<option value="0">JNO</option>
+					</field>
 					<field name="date_format" type="list" default="" label="Show date format" description="">
 					  	<option value="TIMELINE_DATE_FORMAT_YEAR">TIMELINE_DATE_OPTION_1_LABLE</option>
 					  	<option value="TIMELINE_DATE_FORMAT_YEAR_MONTH">TIMELINE_DATE_OPTION_2_LABLE</option>

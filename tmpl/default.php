@@ -12,8 +12,7 @@
 
 defined('_JEXEC') or die;
 ?>
-<section class=" <?php echo $moduleclass_sfx; ?>">
-    <div class="">
+
         <section id="timeline">
         	<?php if ($TimeLineItemsParms['boxitem1'] == "1" ) : ?>
             <div class="timeline-wrapper">
@@ -184,5 +183,3 @@ defined('_JEXEC') or die;
             </div>
             <?php endif ?>
         </section>
-    </div>
-</div>
