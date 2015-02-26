@@ -23,9 +23,6 @@
     .timeline-block{transition: all .8s ease-in-out; }
 
     .timeline-wrapper:hover .timeline-icon{ transform: scale(1.2); }
-    .timeline-wrapper:hover .timeline-block{
-        border: 1px solid #b000d6; 
-    }
 }
 
 .timeline-wrapper:after {

@@ -233,12 +233,12 @@
 					<field name="url6" label="URL" description="JFIELD_ALT_PAGE_TITLE_LABEL" type="text" default="" filter="string" size="30" />
 					<field name="timeline_text6" width="300" label="Text" description="Enter some description" buttons="true" hide="readmore,pagebreak" type="editor" heigth="100"    filter="safehtml"/>
 			</fieldset>
-
 			<fieldset name="Options">
 					<field name="font-awesome" type="radio" class="btn-group btn-group-yesno" default="0" label="FONTAWSOME_LABLE" description="">
 						<option value="1">JYES</option>
 						<option value="0">JNO</option>
 					</field>
+					<field name="timeline_image_size" label="IMAGE_SIZE_LABEL" description="JFIELD_ALT_PAGE_TITLE_LABEL" type="text" default="200" filter="string" size="10" maxlength="3"/>
 					<field name="date_format" type="list" default="" label="Show date format" description="">
 					  	<option value="TIMELINE_DATE_FORMAT_YEAR">TIMELINE_DATE_OPTION_1_LABLE</option>
 					  	<option value="TIMELINE_DATE_FORMAT_YEAR_MONTH">TIMELINE_DATE_OPTION_2_LABLE</option>
@@ -246,7 +246,7 @@
 						<option value="DATE_FORMAT_LC2">TIMELINE_DATE_OPTION_4_LABLE</option>
 						<option value="DATE_FORMAT_LC3">TIMELINE_DATE_OPTION_5_LABLE</option>
 					</field>
-					<field name="iconbackground" type="color" default="#333333" label="background color for icon " description="" size="10" />
+					<field name="iconbackground" type="color" default="#b000d6" label="background color for icon " description="" size="10" />
 					
 					<field name="iconcolor" type="color" default="#ffffff" label="color for icon " description="" size="10" />
 

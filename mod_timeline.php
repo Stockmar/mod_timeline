@@ -25,6 +25,7 @@ $iconbackground             = 		$params->get('iconbackground');
 $iconcolor              	= 		$params->get('iconcolor');
 $verticaline              	= 		$params->get('verticaline');
 $fontawesome 				= 		$params->get( 'font-awesome' );
+$imageSize 				= 		$params->get( 'timeline_image_size' );
 
 // add the stylesheet
 $doc->addStylesheet( JURI::root(true) . '/modules/mod_timeline/css/style.css' );
@@ -68,12 +69,14 @@ $style = '
 		background:'. $iconbackground .';
 		color:'. $iconcolor .';
 	}
+	.timeline-wrapper:hover .timeline-block{
+        border: 1px solid '. $iconbackground .'; 
+    }
 	.timeline-text img{
-    	width: 200px;
+    	width:'. $imageSize .'px;
 	}
-
-	';
-
+';
+  
 $doc->addStyleDeclaration($style);
 
 
