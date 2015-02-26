@@ -67,7 +67,12 @@ $style = '
 	.timeline-icon{
 		background:'. $iconbackground .';
 		color:'. $iconcolor .';
-	}';
+	}
+	.timeline-text img{
+    	width: 200px;
+	}
+
+	';
 
 $doc->addStyleDeclaration($style);
 

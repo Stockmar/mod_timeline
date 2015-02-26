@@ -144,12 +144,22 @@
     display: inline-block;
 }
 
+#timeline .timeline-date{
+    border-top: 1px solid #ccc;
+    display: block;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
 @media only screen and (min-width: 1170px) {
     #timeline .timeline-wrapper > .timeline-icon {
         left: 50%;
     }
 
-    .timeline-date{
+    #timeline .timeline-date{
+        border-top: none;
+        margin-top: 0;
+        padding-left: 0;
         position: absolute;
         top: 15px;
         width: 100%;
@@ -157,12 +167,12 @@
     }
 
     .timeline-date.left{
-        left: 122%;
+        left: 126%;
         text-align: left;
     }
 
     .timeline-date.right{
-        right: 122%;
+        right: 126%;
         text-align: right;
     }
 }
@@ -170,6 +180,11 @@
 .timeline-title{
     margin-top: 0;
     color: inherit;
+}
+
+#timeline .timeline-text img{
+    max-width: 100%;
+    height: auto;
 }
 
 #timeline h4.timeline-title,
