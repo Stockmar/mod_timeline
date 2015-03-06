@@ -67,6 +67,8 @@ $style = '
 	}
 	.timeline-icon{
 		background:'. $iconbackground .';
+	}
+	.timeline-icon .fa{
 		color:'. $iconcolor .';
 	}
 	.timeline-wrapper:hover .timeline-block{

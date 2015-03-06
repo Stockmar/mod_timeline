@@ -33,6 +33,7 @@
 
 .timeline-block{
     width: 80%;
+    min-height: 50px;
     margin-bottom: 10px;
     position: relative;
     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
@@ -135,6 +136,13 @@
     border-bottom-left-radius: 50%;
     box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
+
+.timeline-wrapper > .timeline-icon .fa{
+    font-size: 1.5em;
+    margin: 0;
+    top:2px;
+}
+
 
 #timeline .timeline-url,
 #timeline .timeline-date{
